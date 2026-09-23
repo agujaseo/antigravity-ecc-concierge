@@ -1,0 +1,21 @@
+{
+  "name": "antigravity-ecc-concierge",
+  "version": "1.0.0",
+  "description": "Asesor interlocutor ligero y descargador quirúrgico de skills de ECC para Antigravity",
+  "main": "scripts/search.js",
+  "scripts": {
+    "search": "node scripts/search.js",
+    "fetch": "node scripts/fetch.js",
+    "build-catalog": "node scripts/build-catalog.js"
+  },
+  "keywords": [
+    "antigravity",
+    "ecc",
+    "skills",
+    "agent",
+    "claude-code",
+    "ai-coding"
+  ],
+  "author": "agujaseo",
+  "license": "MIT"
+}

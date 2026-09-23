@@ -1,0 +1,7 @@
+{
+  "name": "antigravity-ecc-concierge",
+  "description": "Asesor interlocutor ligero y descargador quirúrgico de skills, reglas y agentes de ECC para Antigravity",
+  "version": "1.0.0",
+  "author": "agujaseo",
+  "license": "MIT"
+}
