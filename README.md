@@ -89,7 +89,10 @@ node scripts/build-catalog.js
 
 ```text
 antigravity-ecc-concierge/
+├── AGENTS.md                 # Archivo troncal: Primeros pasos e índice de 68 agentes maestros
 ├── plugin.json               # Manifiesto oficial de plugin de Antigravity 2.0
+├── rules/
+│   └── AGENTS.md             # Regla nativa que Antigravity carga al activar el plugin
 ├── data/
 │   └── ecc-catalog.json      # Catálogo indexado ligero (~340 KB) con metadata de ECC
 ├── scripts/

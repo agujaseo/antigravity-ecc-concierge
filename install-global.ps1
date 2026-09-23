@@ -18,6 +18,9 @@ if (-not (Test-Path $TargetDir)) {
 
 Copy-Item -Path (Join-Path $SourceDir "plugin.json") -Destination $TargetDir -Force
 Copy-Item -Path (Join-Path $SourceDir "README.md") -Destination $TargetDir -Force
+if (Test-Path (Join-Path $SourceDir "AGENTS.md")) {
+    Copy-Item -Path (Join-Path $SourceDir "AGENTS.md") -Destination $TargetDir -Force
+}
 
 if (Test-Path (Join-Path $SourceDir "data")) {
     Copy-Item -Path (Join-Path $SourceDir "data") -Destination $TargetDir -Recurse -Force
@@ -29,6 +32,10 @@ if (Test-Path (Join-Path $SourceDir "scripts")) {
 
 if (Test-Path (Join-Path $SourceDir "skills")) {
     Copy-Item -Path (Join-Path $SourceDir "skills") -Destination $TargetDir -Recurse -Force
+}
+
+if (Test-Path (Join-Path $SourceDir "rules")) {
+    Copy-Item -Path (Join-Path $SourceDir "rules") -Destination $TargetDir -Recurse -Force
 }
 
 Write-Host ""

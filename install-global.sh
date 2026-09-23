@@ -13,8 +13,10 @@ mkdir -p "$TARGET_DIR"
 
 cp "$SOURCE_DIR/plugin.json" "$TARGET_DIR/"
 cp "$SOURCE_DIR/README.md" "$TARGET_DIR/"
+[ -f "$SOURCE_DIR/AGENTS.md" ] && cp "$SOURCE_DIR/AGENTS.md" "$TARGET_DIR/"
 cp -r "$SOURCE_DIR/data" "$TARGET_DIR/"
 cp -r "$SOURCE_DIR/scripts" "$TARGET_DIR/"
 cp -r "$SOURCE_DIR/skills" "$TARGET_DIR/"
+[ -d "$SOURCE_DIR/rules" ] && cp -r "$SOURCE_DIR/rules" "$TARGET_DIR/"
 
 echo "✓ Antigravity ECC Concierge instalado con éxito en $TARGET_DIR"
