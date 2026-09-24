@@ -125,6 +125,13 @@ A continuación se indexan los **68 agentes especializados** de ECC, clasificado
 
 ---
 
+## 🎨 Suite de Diseño Anti-Slop y WordPress (Hallmark WP)
+
+Para proyectos frontend y maquetación web profesional sin la apariencia clónica de la IA:
+* **`hallmark-wp`:** Director de arte y maquetación editorial. Diseñado para trabajar en perfecta sinergia con **Blocksy Pro** (tokens globales `--theme-palette-color-*`), **Greenshift** (Bento Grid y animaciones de alto rendimiento), **Stackable Pro** (columnas asimétricas 60/40, 70/30) e inyección en caliente mediante **Novamira Pro MCP**.
+
+---
+
 ## 🚀 Cómo Usar Cualquier Agente en tu Proyecto
 
 ### Opción A: Consulta al Vuelo (Sin descargar nada)

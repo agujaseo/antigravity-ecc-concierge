@@ -3,7 +3,7 @@
   "generatedAt": "2026-09-23T10:17:56.461Z",
   "sourceRepo": "affaan-m/ECC",
   "counts": {
-    "skills": 292,
+    "skills": 293,
     "agents": 68,
     "rules": 122,
     "components": 84
@@ -9914,6 +9914,35 @@
       ],
       "sourceDir": "skills/x-api",
       "targetDir": ".agents/skills/x-api"
+    },
+    {
+      "id": "skill:hallmark-wp",
+      "name": "hallmark-wp",
+      "type": "skill",
+      "category": "frontend",
+      "moduleId": "wordpress-design",
+      "description": "Criterio de diseño y maquetación anti-slop para WordPress con Blocksy Pro, Greenshift, Stackable y Novamira Pro.",
+      "tags": [
+        "wordpress",
+        "hallmark",
+        "blocksy",
+        "greenshift",
+        "stackable",
+        "novamira",
+        "design",
+        "anti-slop",
+        "frontend",
+        "gutenberg"
+      ],
+      "files": [
+        "skills/hallmark-wp/SKILL.md",
+        "skills/hallmark-wp/references/blocksy-tokens.md",
+        "skills/hallmark-wp/references/greenshift-patterns.md",
+        "skills/hallmark-wp/references/stackable-patterns.md",
+        "skills/hallmark-wp/references/slop-gates-wp.md"
+      ],
+      "sourceDir": "skills/hallmark-wp",
+      "targetDir": ".agents/skills/hallmark-wp"
     }
   ],
   "agents": [
